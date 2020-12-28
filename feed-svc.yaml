@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: udagram-feed-svc
   labels:
-    svc: udagram-feed-api
+    svc: udagram-feed
 spec:
   selector:
     app: udagram-feed
