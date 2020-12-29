@@ -34,6 +34,7 @@ router.get('/', async (req: Request, res: Response) => {
       item.url = AWS.getGetSignedUrl(item.url);
     }
   });
+  console.log('This is a Cloud Developer Project Rubric LOG when the /feed endpoint was hit...')
   res.send(items);
 });
 
