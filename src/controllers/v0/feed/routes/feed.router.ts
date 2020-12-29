@@ -35,7 +35,7 @@ router.get('/', async (req: Request, res: Response) => {
     }
   });
   console.log('This is a Cloud Developer Project Rubric LOG when the /feed endpoint was hit...')
-  res.send({'This is a Cloud Developer Project Rubric LOG when the /feed endpoint was hit...'});
+  res.send({items});
 });
 
 // Get a feed resource
